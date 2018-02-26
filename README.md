@@ -1,4 +1,5 @@
-# hackIllinois
+# Free- Watch (Turn your old-unused cheap smartphones to A.I. powered smart home surveillance system) Hackillinois 2018
+
 # Inspiration
 
 We often see that people with low incomes are unable to afford the costly home surveillance system necessary to keep their homes protected. They leave their homes vulnerable when they are not at home or go on a vacation. This is a major issue in all countries, developed and developing.
