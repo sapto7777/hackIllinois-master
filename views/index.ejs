@@ -1,0 +1,58 @@
+<html>
+<base href="/">
+<head>
+	<link rel="stylesheet" href="./bower_components/angular-bootstrap-toggle/dist/angular-bootstrap-toggle.css"/> 
+	<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css"/>
+	<!-- <link rel="stylesheet" href="./bower_components/angular-flash-alert/dist/angular-flash.css"/> -->
+	<link rel="stylesheet" href="./bower_components/angular-loading-bar/build/loading-bar.css"/>
+	<style type="text/css">
+	[ng\:cloak], [ng-cloak], .ng-cloak {
+	display: none !important;
+	}</style>
+</head>
+<body ng-app="different">
+		<nav class="navbar navbar-inverse	 navbar-fixed-top">
+				<div class="container-fluid">
+				  <!-- Brand and toggle get grouped for better mobile display -->
+				  <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					  <span class="sr-only">Toggle navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Free-Watch</a>
+				  </div>
+				  <!-- Collect the nav links, forms, and other content for toggling -->
+				  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+					  <li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
+						<li><a href="/user">Add User</a></li>
+						<li><a onClick="window.open('/remote');">Remote Assistant</a></li>
+
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+					  <li><a href="#">Logout</a></li>
+					</ul>
+				  </div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+			
+	<ui-view></ui-view>
+	<script src="./bower_components/jquery/dist/jquery.js"></script>
+	<script src='/socket.io/socket.io.js'></script>
+	<script src="./assets/webcam.js"></script>
+	<script src='/socket.io/socket.io.js'></script>
+	<script src="./js/site.js"></script>
+	<script src="./bower_components/angular/angular.js"></script>
+	<script src="./bower_components/angular-loading-bar/build/loading-bar.js"></script>
+	<script src="./bower_components/angular-flash-alert/dist/angular-flash.js"></script>
+	<script src="./bower_components/angular-resource/angular-resource.js"></script>
+	<script src="./bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="./bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+	<script src="./bower_components/angular-bootstrap-toggle/dist/angular-bootstrap-toggle.js"></script>
+	<script src="./app.js"></script>
+	<script src="./home-controller.js"></script>
+	<script src="./user-controller.js"></script>
+</body>
+</html>
